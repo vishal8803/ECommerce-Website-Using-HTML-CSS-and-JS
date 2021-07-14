@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="Images/V-logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./CSS/contact.css" />
+    <title>Vishal | Contact Us</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <div class="co">
+        <div class="co1">
+          <img class="logo" src="Images/logo.png" alt="" />
+        </div>
+        <div class="co2">
+          <a href="index.html" class="active">Home</a>
+          <a href="about.html" target="_blank">About us</a>
+          <a href="mobile.html">Mobiles</a>
+          <a href="electronics.html">Electronics</a>
+          <a href="fashion.html">Fashion</a>
+          <a href="hoki.html">Home & Kitchen</a>
+          <a href="">Customer Service</a>
+          <a href="contact.html" target="_blank">Contact Us</a>
+          <a href="login.html" target="_blank">Login/Sign up</a>
+        </div>
+      </div>
+    </nav>
+
+    <h1 class="heading">CONTACT</h1>
+    <hr />
+    <p class="center te">We'd &#10084; to help!</p>
+    <p class="center to">
+      We like to create things with fun, open-minded people. Feel free to say
+      hello!
+    </p>
+
+    <div class="container">
+      <form
+        class="c1"
+        onsubmit="return check()"
+        action=""
+        name="data"
+        method="post"
+      >
+        <input type="text" name="Name" id="name" placeholder="Your Name" />
+        <span id="errorname" style="color: red; font-size: 15px"> </span>
+        <input type="email" name="Email Id" id="email" placeholder="Email" />
+        <span id="erroremail1" style="color: red; font-size: 15px"> </span>
+        <textarea
+          name="Message"
+          id="message"
+          cols="30"
+          rows="7"
+          placeholder="Message"
+        ></textarea>
+        <input type="submit" value="Send" />
+      </form>
+      <div class="c2">
+        <table>
+          <tr>
+            <td><i class="fa fa-map-marker fa-2x" aria-hidden="true"></i></td>
+            <td>
+              <p>
+                Vishal Shopping Mart <br />
+                Gwalior, M.P.
+              </p>
+            </td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-phone fa-2x" aria-hidden="true"></i></td>
+            <td><p>(617) 312-290</p></td>
+          </tr>
+          <tr>
+            <td><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></td>
+            <td><p>vishalshoppingmart@gmail.com</p></td>
+          </tr>
+        </table>
+        <hr />
+      </div>
+    </div>
+
+    <footer>
+      <a href="">FAQ</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="">Terms of use</a>
+      <a href="">Privacy policy</a>
+      <a href="">Refund Policy</a>
+      <a href="">&copy; 2021 Vishal Shopping mart</a>
+    </footer>
+
+    <script src="./JS/contact.js"></script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzMJs3iv2M-1Msr34cXFwRH2n9nsV9BQOH5AqWr8KPn8aDdroGGVIawqcUoXfyKjnvK/exec";
+      const form = document.forms["data"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) =>
+            alert("Thanks for Contacting us..! We Will Contact You Soon...")
+          )
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>

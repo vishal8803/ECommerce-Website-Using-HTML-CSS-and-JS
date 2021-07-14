@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+  width: 8%;
+  height: 8%;
+  margin: 2px 5px;
+}
+.logo:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.co {
+  margin-bottom: 8px;
+}
+.co1 {
+  text-align: center;
+  background: linear-gradient(70deg, #fff810 30%, rgba(0, 0, 0, 0) 30%),
+    linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
+.co2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: gainsboro;
+  padding: 14px;
+  position: sticky;
+}
+.co2 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black !important;
+}
+
+.co2 a:hover {
+  border: 2px solid black;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.mobile1 {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.des {
+  width: 50%;
+}
+#we {
+  text-decoration: none;
+}
+#lisy {
+  padding: 15px;
+  color: black;
+}
+.price {
+  color: black;
+  width: 20%;
+}
+.image {
+  width: 25%;
+  text-align: center;
+}

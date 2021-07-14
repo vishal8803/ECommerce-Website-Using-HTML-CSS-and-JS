@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+  width: 8%;
+  height: 8%;
+  margin: 2px 5px;
+}
+.logo:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.co {
+  margin-bottom: 8px;
+}
+.co1 {
+  text-align: center;
+  background: linear-gradient(70deg, #fff810 30%, rgba(0, 0, 0, 0) 30%),
+    linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
+.co2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: gainsboro;
+  padding: 14px;
+  position: sticky;
+}
+.co2 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black !important;
+}
+
+.co2 a:hover {
+  border: 2px solid black;
+}
+.item img {
+  height: 300px;
+}
+.one {
+  background-color: #ffeaa7;
+  padding-top: 20px;
+}
+.card {
+  display: flex;
+  margin: 30px auto;
+  padding: 5px;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #81ecec;
+}
+.card1,
+.card2,
+.card3 {
+  border: 2px solid #bdc3c7;
+  box-shadow: 5px 4px 5px #bdc3c7;
+  background-color: white;
+}
+.card1 {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card1 .row1,
+.card1 .row2 {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.card1 .row1 p,
+.card1 .row2 p {
+  padding: 4px;
+}
+.card2 {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.card2 .row1,
+.card2 .row2 {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.card2 .row1 p,
+.card2 .row2 p {
+  padding: 4px;
+}
+
+.card3 {
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+}
+.card3 .row1,
+.card3 .row2 {
+  padding: 4px;
+  display: flex;
+  flex-direction: row;
+}
+.card3 .row1 p,
+.card3 .row2 p {
+  padding: 4px;
+}
+.item p img {
+  width: 50px;
+  height: 250px;
+  padding: 5px;
+}
+.two {
+  margin: 40px 2px;
+  background-color: #c8d6e5;
+}
+.brands {
+  margin: 40px 2px;
+}
+.security {
+  display: flex;
+  flex-direction: row;
+  margin: 10px 2px;
+  justify-content: space-evenly;
+  background-color: #a29bfe;
+}
+.s1,
+.s2,
+.s3 {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 20px;
+}
+.s1 img,
+.s2 img,
+.s3 img {
+  padding: 10px;
+  border-radius: 20px;
+  margin: 20px 0;
+  box-shadow: 2px 2px 10px black;
+  background-color: white;
+}
+.s1 p,
+.s2 p,
+.s3 p {
+  text-align: center;
+  margin: 20px 0px;
+  font-size: 20px;
+}
+
+.intro {
+  margin: 40px 2px;
+  text-align: center;
+}
+.intro img {
+  width: 200px;
+}
+footer {
+  /* margin: 20px 2px; */
+  padding: 20px;
+  background-color: #333;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.products {
+  color: black;
+  text-decoration: none;
+}
+.products:hover {
+  text-decoration: underline;
+}
+.card3 a :hover {
+  color: black;
+  text-decoration: underline;
+}
+.card2 a :hover {
+  color: black;
+  text-decoration: underline;
+}
+.card1 a :hover {
+  color: black;
+  text-decoration: underline;
+}
+marquee{
+  color: white;
+  /* font-weight: bold; */
+  background-color: black;
+  padding: 10px;
+}
+.co{
+  margin-bottom: 0;
+}
+.one{
+  margin-top: 0;
+}

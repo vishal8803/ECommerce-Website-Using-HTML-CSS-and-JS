@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.logo {
+  width: 8%;
+  height: 8%;
+  margin: 2px 5px;
+}
+.logo:hover {
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.co {
+  margin-bottom: 8px;
+}
+.co1 {
+  text-align: center;
+  background: linear-gradient(70deg, #fff810 30%, rgba(0, 0, 0, 0) 30%),
+    linear-gradient(30deg, #63e89e 60%, #ff7ee3 60%);
+}
+.co2 {
+  display: flex;
+  justify-content: space-around;
+  background-color: gainsboro;
+  padding: 14px;
+  position: sticky;
+}
+.co2 a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black !important;
+}
+
+.co2 a:hover {
+  border: 2px solid black;
+}
+.item img {
+  height: 300px;
+}
+.one {
+  background-color: #ffeaa7;
+  padding-top: 20px;
+}
+
+.item p img {
+  width: 50px;
+  height: 250px;
+  padding: 5px;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+.row {
+  border: 2px solid tan;
+  display: flex;
+  margin: 20px 10px;
+  justify-content: space-between;
+  padding: 5px;
+}
+.container2 {
+  width: 60%;
+}
+#head {
+  line-height: 40px;
+}
+#star {
+  color: orange;
+}
+.price {
+  margin: 10px;
+}
+table tr td {
+  padding: 10px;
+}
+.uni {
+  padding: 15px;
+  width: 40%;
+  margin: 15px;
+  border: none;
+  color: white;
+  background-color: orange;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.uni2 {
+  padding: 15px;
+  width: 40%;
+  margin: 15px;
+  border: none;
+  color: white;
+  background-color: rgb(255, 102, 0);
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+}
